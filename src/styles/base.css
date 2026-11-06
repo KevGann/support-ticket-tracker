@@ -1,0 +1,62 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-background);
+  color: var(--color-on-background);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+
+
+
+
+/* tablet */
+@media (min-width: 40rem) { }
+
+/* desktop */
+@media (min-width: 64rem) { }
+
+/* wide desktop */
+@media (min-width: 80rem) { }

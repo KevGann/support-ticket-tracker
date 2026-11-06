@@ -1,0 +1,129 @@
+
+:root {
+  /* --------------------------------
+     FOUNDATION COLORS
+  -------------------------------- */
+
+  --color-primary: #5a587d;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #e0e7ff;
+  --color-on-primary-container: #1e1b4b;
+
+  --color-secondary: #64748b;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e2e8f0;
+  --color-on-secondary-container: #1e293b;
+
+  /* --------------------------------
+     SURFACES
+  -------------------------------- */
+
+  --color-background: #f8fafc;
+  --color-on-background: #1e293b;
+
+  --color-surface: #ffffff;
+  --color-on-surface: #1e293b;
+
+  --color-surface-variant: #f1f5f9;
+  --color-on-surface-variant: #64748b;
+
+  --color-surface-container-low: #f8fafc;
+  --color-surface-container: #f1f5f9;
+  --color-surface-container-high: #e2e8f0;
+
+  /* --------------------------------
+     OUTLINES
+  -------------------------------- */
+
+  --color-outline: #94a3b8;
+  --color-outline-variant: #e2e8f0;
+
+  /* --------------------------------
+     SEMANTIC COLORS
+  -------------------------------- */
+
+  --color-error: #dc2626;
+  --color-on-error: #ffffff;
+
+  --color-success: #15803d;
+  --color-on-success: #ffffff;
+
+  --color-warning: #d97706;
+  --color-on-warning: #ffffff;
+
+  --color-info: #2563eb;
+  --color-on-info: #ffffff;
+
+  /* --------------------------------
+     TICKET STATUS COLORS
+  -------------------------------- */
+
+  --color-status-new: #64748b;
+  --color-on-status-new: #ffffff;
+
+  --color-status-open: #2563eb;
+  --color-on-status-open: #ffffff;
+
+  --color-status-pending: #d97706;
+  --color-on-status-pending: #ffffff;
+
+  --color-status-solved: #15803d;
+  --color-on-status-solved: #ffffff;
+
+  /* --------------------------------
+     PRIORITY COLORS
+  -------------------------------- */
+
+  --color-priority-low: #15803d;
+  --color-priority-medium: #d97706;
+  --color-priority-high: #dc2626;
+
+  /* --------------------------------
+     TYPOGRAPHY
+  -------------------------------- */
+
+  --font-family-base: Inter, system-ui, sans-serif;
+  --font-family-mono: Consolas, monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+
+  /* --------------------------------
+     SPACING
+  -------------------------------- */
+
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+
+  /* --------------------------------
+     LAYOUT
+  -------------------------------- */
+
+  --sidebar-width: 15rem;
+  --header-height: 4rem;
+
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+
+  /* --------------------------------
+     EFFECTS
+  -------------------------------- */
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 5%);
+  --shadow-md: 0 4px 8px rgb(0 0 0 / 8%);
+  --shadow-lg: 0 10px 20px rgb(0 0 0 / 10%);
+}
