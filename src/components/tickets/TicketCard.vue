@@ -10,7 +10,7 @@
                 {{ store.formatTimeRemaining(ticket) }}
             </span>
             <span v-if="slaStatus === 'breached'" class="breached-badge">
-                <b>⇅</b> Breached
+                Breached
             </span>
         </div>
 
