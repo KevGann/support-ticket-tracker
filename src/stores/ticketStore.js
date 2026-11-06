@@ -179,15 +179,16 @@ export const useTicketStore = defineStore('tickets', {
 
         if (remaining <= 0) return 'Breached';
 
-        const totalMinutes = Math.floor(remaining / 60000);
-        const hours = Math.floor(totalMinutes / 60);
-        const minutes = totalMinutes % 60;
+        const totalSeconds = Math.floor(remaining / 1000);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
 
         if (hours === 0) {
-            return `${minutes}m`;
+            return `${minutes}m ${seconds.toString().padStart(2, '0')}s`;
         }
 
-        return `${hours}h ${minutes.toString().padStart(2, '0')}m`;
+        return `${hours}h ${minutes.toString().padStart(2, '0')}m ${seconds.toString().padStart(2, '0')}s`;
     }
   }
 });
