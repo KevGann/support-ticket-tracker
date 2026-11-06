@@ -2,7 +2,7 @@
 
 A bare-bones Vue 3 support ticket manager with Kanban and list views, SLA timers, and basic workflow automation, built in under 3 hours.
 
-<img width="3042" height="1441" alt="Capture" src="https://github.com/user-attachments/assets/ce05161b-90dc-476d-b096-2cc76221983f" />
+<img width="3036" height="1439" alt="image" src="https://github.com/user-attachments/assets/4173841a-adc0-412f-ac2d-6b8593c82416" />
 
 <img width="3043" height="1455" alt="Capture1" src="https://github.com/user-attachments/assets/48de9760-81eb-41ca-8be9-3e6f826058bf" />
 
